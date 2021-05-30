@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Button} from './Button';
 import {Display} from './Display';
+import {Input} from './Input';
 
 
 
@@ -32,6 +33,7 @@ export const Counter = () => {
 
         }}>
             <Display children={count} error={count === maxValue ? error : ''}/>
+            {/*<Input/>*/}
             <Button
                 title={'inc'}
                 disabled={count === maxValue ? true : false}
