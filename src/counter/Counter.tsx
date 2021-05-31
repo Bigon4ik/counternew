@@ -34,6 +34,8 @@ export const Counter = () => {
         }}>
             <Display children={count} error={count === maxValue ? error : ''}/>
             {/*<Input/>*/}
+            {/*<Input/>*/}
+            {/*<Input/>*/}
             <Button
                 title={'inc'}
                 disabled={count === maxValue ? true : false}
