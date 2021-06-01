@@ -37,22 +37,28 @@
 /*  }*/
 /*}*/
 .buttonClass {
-    background-color: darkorange;
+    background-color: dimgrey;
     font-weight: bold;
     font-size: 30px;
     padding: 10px;
     margin: 10px auto;
     display: block;
-    border: 5px solid green;
+    border: 2px solid aqua;
     border-radius: 15px;
     width: 100px;
 }
-
-.counterClass {
+.buttons{
+    display: block;
+    border: 2px solid aqua;
+    border-radius: 15px;
     margin: 10px auto;
+    width: 360px;
+}
+.counterClass {
+    margin: 0px auto;
     text-align: center;
-    background-color: gold;
-    border: 5px solid green;
+    background-color: darkslategrey;
+    border: 2px solid aqua;
     border-radius: 15px;
     width: 400px;
     position: relative;
@@ -63,10 +69,41 @@
     font-weight: bold;
     font-size: 50px;
     margin: 10px auto;
-    background-color: rosybrown;
+    background-color: darkslategrey;
     padding: 30px;
-    border: 5px solid green;
+    border: 2px solid aqua;
     border-radius: 15px;
     text-align: center;
-    width: 100px;
+    width: 300px;
+}
+
+.setClass{
+    display: block;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    margin: 10px auto;
+    width: 360px;
+}
+.settingsClass{
+    text-align: center;
+    background-color: darkslategrey;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    width: 400px;
+    position: relative;
+}
+.inputText {
+    padding: 5px 15px;
+    text-align: left;
+    display: inline-block;
+}
+
+.inputValue {
+    margin: 10px;
+    display: inline-block;
+    padding: 5px 5px;
+    border: 5px solid black;
+    border-radius: 15px;
+    text-align: center;
+    height: 30px;
 }

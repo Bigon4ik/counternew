@@ -5,7 +5,7 @@ import { Counter } from './counter/Counter';
 
 function App() {
   return (
-   <div>
+   <div style={{backgroundColor:'black',height:1000}}>
      <Counter/>
    </div>
   );
