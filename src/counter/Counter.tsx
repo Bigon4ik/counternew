@@ -4,7 +4,6 @@ import {Display} from './Display';
 import {Input} from './Input';
 
 
-
 export const Counter = () => {
     let [count, setCount] = useState(0)
     // let [error, setError]=useState(false)
@@ -12,26 +11,18 @@ export const Counter = () => {
 
     const maxValue = 5
 
-    const resetCount = () => {setCount( 0)
+    const resetCount = () => {
+        setCount(0)
     }
-    const increaseCount = () => {setCount(count + 1)}
+    const increaseCount = () => {
+        setCount(count + 1)
+    }
     // const erroring=()={
     //
     // }
 
     return (
-        <div style={{
-            display:'flex',
-            justifyContent:'center',
-            backgroundColor: 'gold',
-            // padding: 30,
-            // display: 'block',
-            border: '5px solid green',
-            borderRadius: 15,
-            width:400,
-
-
-        }}>
+        <div className={'counterClass'}>
             <Display children={count} error={count === maxValue ? error : ''}/>
             {/*<Input/>*/}
             {/*<Input/>*/}
