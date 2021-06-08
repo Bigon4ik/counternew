@@ -11,7 +11,7 @@ export const Input=(props:InputProps)=>{
     // }
     return (
         <div className={'inputContainer'}>
-            //<label className={'inputText'}>{props.label}:</label>
+            <label className={'inputText'}>{props.label}:</label>
             <input type="number" className={'inputValue'} value={props.value} onChange={props.onChange}/>
         </div>
     )

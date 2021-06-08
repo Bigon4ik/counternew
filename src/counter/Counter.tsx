@@ -3,8 +3,16 @@ import {Button} from './Button';
 import {Display} from './Display';
 import {Input} from './Input';
 
-
-export const Counter = () => {
+export type CounterType = {
+    counter: number
+    add: () => void
+    reset: () => void
+    disabled?: boolean
+    minValue: number
+    maxValue: number
+    error: string
+}
+export const Counter = (props:CounterType) => {
     const [count, setCount] = useState<number>(0)
     const [maxValue, setMaxValue] = useState<number>(5)
     const [startValue, setStartValue] = useState<number>(0)
