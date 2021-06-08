@@ -22,23 +22,23 @@ export const Counter = (props:CounterType) => {
 
     // const maxValue = 5
 
-    const resetCount = () => {
-        setCount(startValue)
-    }
-    const increaseCount = () => {
-        setCount(+count + 1)
-    }
-    const settingsMaxValue=(value:number)=>{
-        setSettingMaxValue(value)
-    }
-    const settingsStartValue=(value:number)=>{
-        setStartValue(value)
-
-    }
-    const setSetting=()=>{
-        setMaxValue(settingMaxValue)
-        setCount(startValue)
-    }
+    // const resetCount = () => {
+    //     setCount(startValue)
+    // }
+    // const increaseCount = () => {
+    //     setCount(+count + 1)
+    // }
+    // const settingsMaxValue=(value:number)=>{
+    //     setSettingMaxValue(value)
+    // }
+    // const settingsStartValue=(value:number)=>{
+    //     setStartValue(value)
+    //
+    // }
+    // const setSetting=()=>{
+    //     setMaxValue(settingMaxValue)
+    //     setCount(startValue)
+    // }
 
     // const erroring=()={
     //
