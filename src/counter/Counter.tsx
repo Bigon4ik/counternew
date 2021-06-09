@@ -40,9 +40,9 @@ export const Counter = (props:CounterType) => {
     //     setCount(startValue)
     // }
 
-    // const erroring=()={
-    //
-    // }
+    const erroring=(props:any)=>{
+
+    }
     // const isValuesChanged = () => (starPropertiesValue !== startValue || settingMaxValue !== maxValue)
     //
     // const isDisabledButtonInc = () => (maxPropertiesValue === +count) && isValuesChanged()
