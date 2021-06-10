@@ -40,7 +40,7 @@ import React, {useState} from 'react';
 //     //     setCount(startValue)
 //     // }
 //
-//     // const erroring=()={
+//      const erroring=()={
 //     //
 //     // }
 //     // const isValuesChanged = () => (starPropertiesValue !== startValue || settingMaxValue !== maxValue)
