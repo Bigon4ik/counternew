@@ -51,7 +51,7 @@ import React, {useState} from 'react';
 //
 //     return (
 //         <div>
-//             <div className={'settingsClass'}>
+// //            <div className={'settingsClass'}>
 //                 <div className={'values'}>
 //                     <div> <Input label={'Max Value'} value={settingMaxValue} onChange={settingsMaxValue}/></div>
 //                     <div> <Input label={'Start Value'} value={startValue} onChange={settingsStartValue}/></div>
