@@ -107,3 +107,14 @@
     text-align: center;
     height: 30px;
 }
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("logo.svg");
+    background-position: center;
+    background-size: cover; /*//для сохранеия пропорций*/
+}

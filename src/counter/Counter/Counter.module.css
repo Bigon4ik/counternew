@@ -5,7 +5,9 @@
    align-content: center;
    width: 250px;
    height: 300px;
-   margin: 50px;}
+   margin: 50px;
+   padding-top: 100px;
+}
 
 
 .screen {
@@ -36,7 +38,7 @@
    color: #67657d;
 }
 .maximum {
-   color: #ffd25f;
+   color: green;
 }
 
 
